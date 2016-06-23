@@ -1,33 +1,94 @@
-font-face {
+@font-face {
     font-family: Cinzel-Regular;
     src: url(fonts/Cinzel-Regular.otf);
 }
 
 body {
     font-family: Cinzel-Regular;
-    background-color: lightgrey;
+    background-color: grey;
 }
 
-ul {
-    list-style: none;
+.container-fluid {
+    width: 100%;
+}
+
+.skill-set {
+    position: relative;
+    display: inline-block;
+    max-height: 150px;
+    margin-top: 100px;
+    max-width: 210px;
+    text-align: center;
+    opacity: .85;
+}
+
+.img-responsive {
+    display: block;
+}
+
+.sml-margin {
+    margin-top: 61px;
+}
+
+.underline {
+    box-sizing: border-box;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.icon-style a i {
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 45px;
+}
+
+.icon-style a i:hover {
+    color: grey;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.list-style ul {
+    text-align: center;
     padding: 0px;
+    color: grey;
 }
 
-.welcome {
-    font-size: 60px;
-    padding-top: 30px;
+.list-style ul li {
+    display: inline;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.list-style ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.list-style ul li a:hover {
     color: white;
 }
 
-.skills {
-    color: white; 
+.welcome {
+    font-size: 70px;
+    padding-top: 200px;
+    color: white;
+}
+
+.white {
+    color: white;
 }
 
 .welcome-img {
     box-sizing: border-box;
-    height: 500px;
+    height: 850px;
     width: 100%;
-    background: url("https://stoplookshoot.files.wordpress.com/2014/09/stormy-herring-cove-beach-bw.jpg") no-repeat center center fixed;
+    background: url("img/6DB.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,7 +116,7 @@ ul {
 }
 
 .list-inline:hover {
-    color: #008080;
+    color: white;
     text-decoration: none;
 }
 
@@ -66,4 +127,10 @@ ul {
 .list-center {
     text-align: center;
     margin-top: 15px;
+}
+
+@media (min-width: 0px) and (max-width: 530px) {
+    ul li a {
+        font-size: 16px;
+    }
 }
