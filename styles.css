@@ -14,10 +14,8 @@ body {
     z-index: 1;
     width: 100%;
     background-color: #262626;
-    font-size: 18px;
+    font-size: 19px;
 }
-
-
 
 .resume {
     background-color: white;
@@ -63,29 +61,7 @@ body {
     color: grey;
 }
 
-.list-style {
-    list-style-type: none;
-}
-
-.list-style ul {
-    text-align: center;
-    padding: 0px;
-    color: grey;
-}
-
-.list-style ul li {
-    display: inline;
-    font-size: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.list-style ul li a {
-    color: grey;
-    text-decoration: none;
-}
-
-.list-style ul li a:hover {
+.list-style ul li>a:hover {
     color: white;
 }
 
