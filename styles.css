@@ -8,6 +8,17 @@ body {
     background-color: grey;
 }
 
+.navbar {
+    border-radius: 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #262626;
+    font-size: 18px;
+}
+
+
+
 .resume {
     background-color: white;
 }
@@ -98,6 +109,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     opacity: .8;
+    margin-top: -11px;
 }
 
 .top-bar {
