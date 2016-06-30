@@ -61,10 +61,6 @@ body {
     color: grey;
 }
 
-.list-style ul li>a:hover {
-    color: white;
-}
-
 .welcome {
     font-size: 70px;
     padding-top: 200px;
@@ -86,6 +82,10 @@ body {
     background-size: cover;
     opacity: .8;
     margin-top: -11px;
+}
+
+.icon-bar {
+    background-color: white;
 }
 
 .top-bar {
