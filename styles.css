@@ -5,13 +5,23 @@
 
 body {
     font-family: Cinzel-Regular;
-    background-color: grey;
+    background-color: lightgrey;;
 }
 
 div.margin {
     margin-top: 100px; 
 }
 
+p.inline {
+    display: inline; 
+    float: right; 
+}
+
+.inline {
+    display: inline; 
+}
+
+/*
 .pdf-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -26,6 +36,7 @@ div.margin {
     width: 100%;
     height: 100%;
 }
+*/
 
 .navbar {
     border-radius: 0px;
