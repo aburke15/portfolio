@@ -17,26 +17,24 @@ p.inline {
     float: right; 
 }
 
+.container {
+    width: 100%;
+}
+
 .inline {
     display: inline; 
 }
 
-/*
-.pdf-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    overflow: hidden;
-}
-
-.pdf-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
+.resume-block {
+    background-color: #525659;
+    width: 95%;
     height: 100%;
 }
-*/
+
+.resume-block img {
+    width: 80%;
+    height: 100%;
+}
 
 .navbar {
     border-radius: 0px;
@@ -102,9 +100,7 @@ p.inline {
 }
 
 .welcome-img {
-    box-sizing: border-box;
     height: 850px;
-    width: 100%;
     background: url("img/6DB.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -157,8 +153,8 @@ p.inline {
     }
 }
 
-@media (min-width: 0px) and (max-width: 530px) {
-    .pdf-container {
-        height: 500px;
+@media (min-width: 0px) and (max-width: 550px) {
+    .resume-block img {
+        width: 100%;
     }
 }
