@@ -9,20 +9,20 @@ body {
 }
 
 div.margin {
-    margin-top: 100px; 
+    margin-top: 100px;
 }
 
 p.inline {
-    display: inline; 
-    float: right; 
+    display: inline;
+    float: right;
 }
 
 div.contact {
     box-sizing: border-box;
     padding-top: 100px;
-    height: 325px; 
+    height: 325px;
     width: 100%;
-    background-color: darkgray; 
+    background-color: darkgray;
 }
 
 div.contact a {
@@ -34,8 +34,24 @@ div.contact a:hover {
     text-decoration: none;
 }
 
+.description {
+    margin-top: 20px; 
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.img-round {
+    border-radius: 4px;
+}
+
 .text {
-    color: lightgrey; 
+    color: lightgrey;
 }
 
 .phone {
@@ -47,7 +63,7 @@ div.contact a:hover {
 }
 
 .inline {
-    display: inline; 
+    display: inline;
 }
 
 .resume-block {
