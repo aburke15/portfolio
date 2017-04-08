@@ -152,13 +152,11 @@ div.contact a:hover {
 .welcome-img {
     height: 850px;
     background: url("icons/black_white_beach.jpg") no-repeat center center fixed;
-    -webkit-filter: grayscale(80%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     opacity: .7;
-    filter: grayscale(80%);
     margin-top: -11px;
 }
 
