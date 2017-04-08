@@ -137,11 +137,11 @@ div.contact a:hover {
 .welcome {
     font-size: 70px;
     padding-top: 200px;
-    color: #262626;
+    color: black;
 }
 
-.dark-grey {
-    color: #262626;
+.black {
+    color: black;
 }
 
 .white {
