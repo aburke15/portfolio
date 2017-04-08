@@ -151,11 +151,13 @@ div.contact a:hover {
 .welcome-img {
     height: 850px;
     background: url("icons/background_wallpaper.jpg") no-repeat center center fixed;
+    -webkit-filter: grayscale(60%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: .675;
+    opacity: .7;
+    filter: grayscale(60%);
     margin-top: -11px;
 }
 
