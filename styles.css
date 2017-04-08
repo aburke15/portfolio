@@ -137,7 +137,7 @@ div.contact a:hover {
 .welcome {
     font-size: 70px;
     padding-top: 200px;
-    color: black;
+    color: white;
 }
 
 .black {
@@ -151,13 +151,13 @@ div.contact a:hover {
 .welcome-img {
     height: 850px;
     background: url("icons/background_wallpaper.jpg") no-repeat center center fixed;
-    -webkit-filter: grayscale(60%);
+    -webkit-filter: grayscale(80%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     opacity: .7;
-    filter: grayscale(60%);
+    filter: grayscale(80%);
     margin-top: -11px;
 }
 
