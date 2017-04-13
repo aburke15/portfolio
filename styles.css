@@ -5,7 +5,8 @@
 
 body {
     font-family: Cinzel-Regular;
-    background-color: #494846;
+    /*background-color: #494846;*/
+    background-color: white;
 }
 
 div.margin {
@@ -136,7 +137,8 @@ div.contact a:hover {
 .welcome {
     font-size: 70px;
     padding-top: 200px;
-    color: white;
+    /*color: white;*/
+    color: dark-grey;
     font-weight: 600;
 }
 
@@ -145,7 +147,8 @@ div.contact a:hover {
 }
 
 .white {
-    color: white;
+    /*color: white;*/
+    color: dark-grey;
 }
 
 .welcome-img {
