@@ -87,7 +87,9 @@ div.contact a:hover {
 }
 
 .image-border {
-    border: black 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 
 .resume {
