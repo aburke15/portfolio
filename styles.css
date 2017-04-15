@@ -86,6 +86,10 @@ div.contact a:hover {
     font-size: 19px;
 }
 
+.image-border {
+    border: black 2px;
+}
+
 .resume {
     background-color: grey;
 }
